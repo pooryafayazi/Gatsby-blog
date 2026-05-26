@@ -1,14 +1,14 @@
 /* CSS Custom Properties Definitions */
 @font-face {
   font-family: 'Vazir';
-  src: url('../static/fonts/Vazir.woff2') format('woff2');
+  src: url('../fonts/Vazir.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Vazir-Bold-FD';
-  src: url('../static/fonts/Vazir-Bold-FD.woff') format('woff');
+  src: url('../fonts/Vazir-Bold-FD.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

@@ -1,3 +1,4 @@
+// src\pages\404.js
 import * as React from "react"
 import { graphql } from "gatsby"
 

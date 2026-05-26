@@ -1,3 +1,4 @@
+// gatsby-config.js
 // custom typefaces
 import "@fontsource-variable/montserrat"
 import "@fontsource/merriweather"

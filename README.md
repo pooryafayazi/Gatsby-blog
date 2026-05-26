@@ -1,41 +1,41 @@
-# 🚀 وب‌سایت شخصی پوریا فیاضی (ساخته شده با Gatsby)
+# 🚀 Poorya Fayyazi's Personal Portfolio (Built with Gatsby)
 
-این پروژه، وب‌سایت شخصی من است که با استفاده از فریم‌ورک **Gatsby** و بر پایه **React** توسعه یافته است. هدف از این پروژه، نمایش مقالات فنی، رزومه و مهارت‌های من در حوزه مهندسی کامپیوتر و برنامه‌نویسی است.
-
----
-
-## 🛠 تکنولوژی‌های استفاده شده (Tech Stack)
-
-در این پروژه از به‌روزترین ابزارهای دنیای فرانت‌اند استفاده شده است:
-
-*   **Gatsby v5**: برای تولید سایت استاتیک (SSG) با سرعت فوق‌العاده.
-*   **React**: برای ساخت کامپوننت‌های رابط کاربری.
-*   **GraphQL**: جهت مدیریت و واکشی داده‌ها از فایل‌های Markdown.
-*   **CSS Modules**: برای استایل‌دهی ماژولار و جلوگیری از تداخل کلاس‌ها (به همراه پشتیبانی از RTL).
-*   **TypeScript**: برای افزایش پایداری کد و تایپ‌دهی دقیق به داده‌های GraphQL.
-*   **Gatsby Plugin Image**: برای بهینه‌سازی پیشرفته تصاویر (Lazy Loading و WebP).
+This is my personal website, developed using the **Gatsby** framework and based on **React**. The purpose of this project is to showcase my technical articles, resume, and skills in the field of Computer Engineering and Programming.
 
 ---
 
-## ✨ قابلیت‌های کلیدی
+## 🛠 Tech Stack
 
-1.  **RTL Support**: پیاده‌سازی کامل راست‌به‌چپ برای زبان فارسی با فونت وزیر.
-2.  **Responsive Design**: طراحی کاملاً واکنش‌گرا برای موبایل و دسکتاپ (تغییر هوشمند Gap در نوار ناوبری).
-3.  **Blog Engine**: سیستم وبلاگ‌دهی مبتنی بر فایل‌های Markdown در پوشه `content/blog`.
-4.  **SEO Optimized**: استفاده از کامپوننت Seo برای مدیریت تگ‌های Meta و Open Graph.
-5.  **Google Maps Integration**: نمایش موقعیت مکانی در صفحه تماس با ما.
-6.  **Dynamic Pages**: تولید خودکار صفحات مقالات با استفاده از `gatsby-node.js`.
+This project utilizes the most up-to-date tools in the frontend world:
+
+*   **Gatsby v5**: For generating a high-speed Static Site (SSG).
+*   **React**: For building the User Interface components.
+*   **GraphQL**: For managing and fetching data from Markdown files.
+*   **CSS Modules**: For modular styling and avoiding class conflicts (with full RTL support).
+*   **TypeScript**: To enhance code stability and provide precise typing for GraphQL data.
+*   **Gatsby Plugin Image**: For advanced image optimization (including Lazy Loading and WebP format).
 
 ---
 
-## 📂 ساختار پروژه (Project Structure)
+## ✨ Key Features
+
+1.  **Full RTL Support**: Complete Right-to-Left implementation for Persian language using the "Vazir" font.
+2.  **Responsive Design**: Fully responsive layout for mobile and desktop (featuring intelligent gap adjustment in the navigation bar).
+3.  **Blog Engine**: A Markdown-based blogging system located in the `content/blog` directory.
+4.  **SEO Optimized**: Utilizing a dedicated SEO component to manage Meta tags and Open Graph data.
+5.  **Google Maps Integration**: Integrated location map on the "Contact Us" page.
+6.  **Dynamic Page Generation**: Automated article page creation using `gatsby-node.js`.
+
+---
+
+## 📂 Project Structure
 ```text
-├── content/blog        # تمامی مقالات (Markdown + تصاویر)
+├── content/blog        # All articles (Markdown + Images)
 ├── src/
-│   ├── components/     # کامپوننت‌های اشتراکی (Layout, Seo, Bio, ...)
-│   ├── fonts/          # فونت‌های محلی پروژه (Vazir)
-│   ├── pages/          # صفحات اصلی (Home, About, Contact, Blog)
-│   ├── templates/      # قالب اختصاصی برای صفحات وبلاگ
-│   └── styles/         # استایل‌های عمومی و ماژولار
-├── gatsby-config.js    # تنظیمات اصلی گتسبی و پلاگین‌ها
-└── gatsby-node.js      # منطق تولید صفحات داینامیک
+│   ├── components/     # Shared components (Layout, Seo, Bio, etc.)
+│   ├── fonts/          # Local project fonts (Vazir)
+│   ├── pages/          # Main pages (Home, About, Contact, Blog)
+│   ├── templates/      # Custom templates for blog posts
+│   └── styles/         # Global and modular styles
+├── gatsby-config.js    # Core Gatsby configuration and plugins
+└── gatsby-node.js      # Logic for dynamic page generation
